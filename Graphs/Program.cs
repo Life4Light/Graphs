@@ -24,6 +24,7 @@ namespace Graphs // Note: actual namespace depends on the project name.
                 Console.WriteLine($"--message = {messageOptionValue}");
             },
                 delayOption, messageOption);
+            Console.WriteLine("Привет");
             //Graph graph = new Graph();
             //graph.GetGraph();
             //Console.WriteLine(graph.weight(0, 0));
